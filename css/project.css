@@ -187,6 +187,9 @@ footer {
             MEDIA QUERIES for layout
 *************************************************/
 @media (max-width: 599px) {
+    html{
+        min-width: 440px;
+    }
     header {
         background-image: url("/responsive-website-project1-mkiet87/img/header01a.jpg");
     }
