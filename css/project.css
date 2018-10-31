@@ -125,22 +125,32 @@ section p img {
 *************************************************/
 footer {
     padding: 1rem 2rem;
+    display: grid;
+    grid-template-areas: "A B C";
+    background-color: rgb(250, 163, 26);
 }
 
 .foot nav {
     font-size: 1rem;
+    display: grid;
+    GRID-TEMPLATE-AREAS: "A B";
+
+/*
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
+*/
     background-color: rgb(250, 163, 26);
 
 }
 
 .foot section {
+/*
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+*/
 }
 
 .foot dl {}
@@ -159,6 +169,19 @@ footer {
 .foot dd a:active,
 .foot dd a:focus,
 .foot dd a:hover {}
+
+
+.docs{
+    grid-area: A;
+}
+
+.channels{
+    grid-area: B;
+}
+
+.comments{
+    grid-area: C;
+}
 
 /*************************************************
             MEDIA QUERIES for layout
