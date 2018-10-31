@@ -165,20 +165,20 @@ footer {
 *************************************************/
 @media (max-width: 599px) {
     header {
-        background-image: url("/img/header01a.jpg");
+        background-image: url("/responsive-website-project1-mkiet87/img/header01a.jpg");
     }
 }
 
 @media (min-width: 600px) and (max-width:999px) {
     header {
 
-        background-image: url("/img/header01b.jpg");
+        background-image: url("/responsive-website-project1-mkiet87/img/header01b.jpg");
     }
 
 }
 
 @media (min-width: 1000px) {
     header {
-        background-image: url("/img/header01c.jpg");
+        background-image: url("/responsive-website-project1-mkiet87/img/header01c.jpg");
     }
 }
