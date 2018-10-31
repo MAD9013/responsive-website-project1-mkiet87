@@ -176,7 +176,7 @@ footer {
 *************************************************/
 @media (max-width: 599px) {
     html{
-        min-width: 440px;
+        min-width: 500px;
     }
     header {
         background-image: url("/responsive-website-project1-mkiet87/img/header01a.jpg");
