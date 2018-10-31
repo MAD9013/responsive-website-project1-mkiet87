@@ -133,24 +133,12 @@ footer {
 .foot nav {
     font-size: 1rem;
     display: grid;
-    GRID-TEMPLATE-AREAS: "A B";
-
-/*
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-*/
+    grid-template-areas: "A B";
     background-color: rgb(250, 163, 26);
 
 }
 
 .foot section {
-/*
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-*/
 }
 
 .foot dl {}
